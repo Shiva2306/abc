@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-15T20:08:36 IST" name="DreamPortalTestSuite" finished-at="2025-06-15T20:08:52 IST" duration-ms="16895">
+    <groups>
+    </groups>
+    <test started-at="2025-06-15T20:08:36 IST" name="DreamPortalFunctionalityTests" finished-at="2025-06-15T20:08:52 IST" duration-ms="16895">
+      <class name="testCases.SummaryPageTest">
+        <test-method signature="verifySummaryData()[pri:3, instance:testCases.SummaryPageTest@7ca20101]" started-at="2025-06-15T20:08:37 IST" name="verifySummaryData" description="Verifies summary statistics on the Summary page" finished-at="2025-06-15T20:08:52 IST" duration-ms="15327" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Summary page did not load or 'good' element not visible within timeout.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Summary page did not load or 'good' element not visible within timeout.
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.SummaryPageTest.verifySummaryData(SummaryPageTest.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySummaryData -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:testCases.SummaryPageTest@7ca20101]" started-at="2025-06-15T20:08:37 IST" name="setupMethod" finished-at="2025-06-15T20:08:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:testCases.SummaryPageTest@7ca20101]" started-at="2025-06-15T20:08:52 IST" name="tearDownMethod" finished-at="2025-06-15T20:08:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- testCases.SummaryPageTest -->
+      <class name="testCases.DiaryPageTest">
+        <test-method signature="verifyDiaryPageData()[pri:2, instance:testCases.DiaryPageTest@7b94089b]" started-at="2025-06-15T20:08:36 IST" name="verifyDiaryPageData" description="Validates data on the Dream Diary page" finished-at="2025-06-15T20:08:37 IST" duration-ms="1306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDiaryPageData -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:testCases.DiaryPageTest@7b94089b]" started-at="2025-06-15T20:08:36 IST" name="setupMethod" finished-at="2025-06-15T20:08:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:testCases.DiaryPageTest@7b94089b]" started-at="2025-06-15T20:08:37 IST" name="tearDownMethod" finished-at="2025-06-15T20:08:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- testCases.DiaryPageTest -->
+      <class name="testCases.HomePageTest">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:testCases.HomePageTest@24111ef1]" started-at="2025-06-15T20:08:29 IST" name="setupSuite" finished-at="2025-06-15T20:08:36 IST" duration-ms="6280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:testCases.HomePageTest@24111ef1]" started-at="2025-06-15T20:08:36 IST" name="setupMethod" finished-at="2025-06-15T20:08:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="verifyHomePageLoadAndButton()[pri:1, instance:testCases.HomePageTest@24111ef1]" started-at="2025-06-15T20:08:36 IST" name="verifyHomePageLoadAndButton" description="Verifies home page loading and button visibility" finished-at="2025-06-15T20:08:36 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageLoadAndButton -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:testCases.HomePageTest@24111ef1]" started-at="2025-06-15T20:08:36 IST" name="tearDownMethod" finished-at="2025-06-15T20:08:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:testCases.HomePageTest@24111ef1]" started-at="2025-06-15T20:08:53 IST" name="tearDownSuite" finished-at="2025-06-15T20:08:53 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- testCases.HomePageTest -->
+    </test> <!-- DreamPortalFunctionalityTests -->
+  </suite> <!-- DreamPortalTestSuite -->
+</testng-results>

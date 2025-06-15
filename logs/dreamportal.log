@@ -27,3 +27,90 @@ Session ID: 683e1728be7dabfcfbd828cb5fd67d49
 2025-06-15 20:58:07,248 INFO DreamPortal [main] Attempting to take screenshot.
 2025-06-15 20:58:08,017 INFO DreamPortal [main] Tearing down test suite...
 2025-06-15 20:58:08,461 INFO DreamPortal [main] Browser closed for the suite.
+2025-06-15 21:29:07,172 INFO DreamPortal [main] Setting up test suite...
+2025-06-15 21:29:10,606 INFO DreamPortal [main] Browser launched for the suite. Session ID: 171c9d21b5c579cd7f921d522e502cb2
+2025-06-15 21:29:11,038 INFO DreamPortal [main] Site opened: https://arjitnigam.github.io/myDreams/
+2025-06-15 21:29:11,074 INFO DreamPortal [main] Loader has disappeared.
+2025-06-15 21:29:14,443 INFO DreamPortal [main] 'My Dreams' button is visible.
+2025-06-15 21:29:14,445 INFO DreamPortal [main] Home Page Window Handle: FBC3C4C99BA8BA22B6BE1F622A149C5C
+2025-06-15 21:29:14,760 INFO DreamPortal [main] Clicked on 'My Dreams' button
+2025-06-15 21:29:14,817 INFO DreamPortal [main] Successfully waited for 3 windows to be present.
+2025-06-15 21:29:15,061 INFO DreamPortal [main] Window Handles Mapped - Home: FBC3C4C99BA8BA22B6BE1F622A149C5C, Diary: 4ACC9047DC9C899DE0685E0E81DB129E, Summary: D20FF1897827D9CF6E61FAD72637D4AC
+2025-06-15 21:29:15,123 INFO DreamPortal [main] Switched back to Home Page for subsequent test execution.
+2025-06-15 21:29:15,309 INFO DreamPortal [main] Starting verifyHomePageLoadAndButton test.
+2025-06-15 21:29:15,331 INFO DreamPortal [main] Loader has disappeared on Home Page.
+2025-06-15 21:29:15,379 INFO DreamPortal [main] 'My Dreams' button is visible on Home Page.
+2025-06-15 21:29:15,385 INFO DreamPortal [main] Finished verifyHomePageLoadAndButton test.
+2025-06-15 21:29:15,430 INFO DreamPortal [main] Starting verifyDiaryPageData test.
+2025-06-15 21:29:15,693 INFO DreamPortal [main] Verified 10 rows are present in the Diary table.
+2025-06-15 21:29:16,879 INFO DreamPortal [main] All rows have complete data on Diary page.
+2025-06-15 21:29:17,363 INFO DreamPortal [main] All dream types are Good or Bad only on Diary page.
+2025-06-15 21:29:17,363 INFO DreamPortal [main] Finished verifyDiaryPageData test.
+2025-06-15 21:29:17,376 INFO DreamPortal [main] Starting verifySummaryData test.
+2025-06-15 21:29:32,963 ERROR DreamPortal [main] Timeout waiting for 'good' element on Summary Page: Expected condition failed: waiting for visibility of element located by By.xpath: //tbody/tr[1]/td[3] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52622}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52622/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 171c9d21b5c579cd7f921d522e502cb2
+2025-06-15 21:29:32,976 INFO DreamPortal [main] Attempting to take screenshot.
+2025-06-15 21:29:33,898 INFO DreamPortal [main] Tearing down test suite...
+2025-06-15 21:29:34,319 INFO DreamPortal [main] Browser closed for the suite.
+2025-06-15 21:40:52,493 INFO DreamPortal [main] Setting up test suite...
+2025-06-15 21:40:54,776 INFO DreamPortal [main] Browser launched for the suite. Session ID: a1bd7a072de1b35df8da5913c68f515d
+2025-06-15 21:40:55,103 INFO DreamPortal [main] Site opened: https://arjitnigam.github.io/myDreams/
+2025-06-15 21:40:55,145 INFO DreamPortal [main] Loader has disappeared.
+2025-06-15 21:40:58,452 INFO DreamPortal [main] 'My Dreams' button is visible.
+2025-06-15 21:40:58,458 INFO DreamPortal [main] Home Page Window Handle: 51CD0D068B695FB4FF2DAF92476697F7
+2025-06-15 21:40:58,787 INFO DreamPortal [main] Clicked on 'My Dreams' button
+2025-06-15 21:40:58,807 INFO DreamPortal [main] Successfully waited for 3 windows to be present.
+2025-06-15 21:40:58,964 INFO DreamPortal [main] Window Handles Mapped - Home: 51CD0D068B695FB4FF2DAF92476697F7, Diary: 0C7052A66118739DE59F59025BB55E77, Summary: 9A23A833B0CA27A37DB0253C320E6DDD
+2025-06-15 21:40:58,999 INFO DreamPortal [main] Switched back to Home Page for subsequent test execution.
+2025-06-15 21:40:59,100 INFO DreamPortal [main] Starting verifyHomePageLoadAndButton test.
+2025-06-15 21:40:59,119 INFO DreamPortal [main] Loader has disappeared on Home Page.
+2025-06-15 21:40:59,163 INFO DreamPortal [main] 'My Dreams' button is visible on Home Page.
+2025-06-15 21:40:59,163 INFO DreamPortal [main] Finished verifyHomePageLoadAndButton test.
+2025-06-15 21:40:59,191 INFO DreamPortal [main] Starting verifyDiaryPageData test.
+2025-06-15 21:40:59,385 INFO DreamPortal [main] Verified 10 rows are present in the Diary table.
+2025-06-15 21:41:01,004 INFO DreamPortal [main] All rows have complete data on Diary page.
+2025-06-15 21:41:01,673 INFO DreamPortal [main] All dream types are Good or Bad only on Diary page.
+2025-06-15 21:41:01,673 INFO DreamPortal [main] Finished verifyDiaryPageData test.
+2025-06-15 21:41:01,682 INFO DreamPortal [main] Starting verifySummaryData test.
+2025-06-15 21:41:17,223 ERROR DreamPortal [main] Timeout waiting for 'good' element on Summary Page: Expected condition failed: waiting for visibility of element located by By.xpath: //tbody/tr[1]/td[3] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53877}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a1bd7a072de1b35df8da5913c68f515d
+2025-06-15 21:41:17,238 INFO DreamPortal [main] Attempting to take screenshot.
+2025-06-15 21:41:18,144 INFO DreamPortal [main] Tearing down test suite...
+2025-06-15 21:41:18,413 INFO DreamPortal [main] Browser closed for the suite.
+2025-06-15 21:52:56,511 INFO DreamPortal [main] Setting up test suite...
+2025-06-15 21:52:59,013 INFO DreamPortal [main] Browser launched for the suite. Session ID: 4d0ebd222deb2bbe461e10aff529db82
+2025-06-15 21:53:00,102 INFO DreamPortal [main] Site opened: https://arjitnigam.github.io/myDreams/
+2025-06-15 21:53:00,152 INFO DreamPortal [main] Loader has disappeared.
+2025-06-15 21:53:03,480 INFO DreamPortal [main] 'My Dreams' button is visible.
+2025-06-15 21:53:03,496 INFO DreamPortal [main] Home Page Window Handle: DA4869A7867489C72C92037621A0700D
+2025-06-15 21:53:03,779 INFO DreamPortal [main] Clicked on 'My Dreams' button
+2025-06-15 21:53:03,817 INFO DreamPortal [main] Successfully waited for 3 windows to be present.
+2025-06-15 21:53:04,664 INFO DreamPortal [main] Window Handles Mapped - Home: DA4869A7867489C72C92037621A0700D, Diary: 001750BDBF76F9F8EAE38B1599DCFDB6, Summary: A03B15DD7C557763990841B1A6EE20F0
+2025-06-15 21:53:04,706 INFO DreamPortal [main] Switched back to Home Page for subsequent test execution.
+2025-06-15 21:53:04,848 INFO DreamPortal [main] Starting verifyHomePageLoadAndButton test.
+2025-06-15 21:53:04,882 INFO DreamPortal [main] Loader has disappeared on Home Page.
+2025-06-15 21:53:04,943 INFO DreamPortal [main] 'My Dreams' button is visible on Home Page.
+2025-06-15 21:53:04,943 INFO DreamPortal [main] Finished verifyHomePageLoadAndButton test.
+2025-06-15 21:53:04,980 INFO DreamPortal [main] Starting verifyDiaryPageData test.
+2025-06-15 21:53:05,250 INFO DreamPortal [main] Verified 10 rows are present in the Diary table.
+2025-06-15 21:53:06,806 INFO DreamPortal [main] All rows have complete data on Diary page.
+2025-06-15 21:53:07,499 INFO DreamPortal [main] All dream types are Good or Bad only on Diary page.
+2025-06-15 21:53:07,499 INFO DreamPortal [main] Finished verifyDiaryPageData test.
+2025-06-15 21:53:07,506 INFO DreamPortal [main] Starting verifySummaryData test.
+2025-06-15 21:53:23,084 ERROR DreamPortal [main] Timeout waiting for 'good' element on Summary Page: Expected condition failed: waiting for visibility of element located by By.xpath: //tbody/tr[1]/td[3] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\shiva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54329}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54329/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d0ebd222deb2bbe461e10aff529db82
+2025-06-15 21:53:23,094 INFO DreamPortal [main] Attempting to take screenshot.
+2025-06-15 21:53:24,017 INFO DreamPortal [main] Tearing down test suite...
+2025-06-15 21:53:24,416 INFO DreamPortal [main] Browser closed for the suite.

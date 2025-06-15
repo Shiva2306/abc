@@ -2,16 +2,12 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-15T20:57:48 IST" name="DreamPortalTestSuite" finished-at="2025-06-15T20:58:07 IST" duration-ms="18673">
+  <suite started-at="2025-06-15T21:53:04 IST" name="DreamPortalTestSuite" finished-at="2025-06-15T21:53:23 IST" duration-ms="18605">
     <groups>
     </groups>
-    <test started-at="2025-06-15T20:57:48 IST" name="DreamPortalFunctionalityTests" finished-at="2025-06-15T20:58:07 IST" duration-ms="18673">
+    <test started-at="2025-06-15T21:53:04 IST" name="DreamPortalFunctionalityTests" finished-at="2025-06-15T21:53:23 IST" duration-ms="18605">
       <class name="testCases.SummaryPageTest">
-        <test-method is-config="true" signature="setupMethod()[pri:0, instance:testCases.SummaryPageTest@7ca20101]" started-at="2025-06-15T20:57:51 IST" name="setupMethod" finished-at="2025-06-15T20:57:51 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="verifySummaryData()[pri:3, instance:testCases.SummaryPageTest@7ca20101]" started-at="2025-06-15T20:57:51 IST" name="verifySummaryData" description="Verifies summary statistics on the Summary page" finished-at="2025-06-15T20:58:07 IST" duration-ms="15522" status="FAIL">
+        <test-method signature="verifySummaryData()[pri:3, instance:testCases.SummaryPageTest@71812481]" started-at="2025-06-15T21:53:07 IST" name="verifySummaryData" description="Verifies summary statistics on the Summary page" finished-at="2025-06-15T21:53:23 IST" duration-ms="15580" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Summary page did not load or 'good' element not visible within timeout.]]>
@@ -54,43 +50,47 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySummaryData -->
-        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:testCases.SummaryPageTest@7ca20101]" started-at="2025-06-15T20:58:07 IST" name="tearDownMethod" finished-at="2025-06-15T20:58:07 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:testCases.SummaryPageTest@71812481]" started-at="2025-06-15T21:53:07 IST" name="setupMethod" finished-at="2025-06-15T21:53:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:testCases.SummaryPageTest@71812481]" started-at="2025-06-15T21:53:23 IST" name="tearDownMethod" finished-at="2025-06-15T21:53:23 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
       </class> <!-- testCases.SummaryPageTest -->
       <class name="testCases.DiaryPageTest">
-        <test-method is-config="true" signature="setupMethod()[pri:0, instance:testCases.DiaryPageTest@7b94089b]" started-at="2025-06-15T20:57:48 IST" name="setupMethod" finished-at="2025-06-15T20:57:48 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="verifyDiaryPageData()[pri:2, instance:testCases.DiaryPageTest@7b94089b]" started-at="2025-06-15T20:57:48 IST" name="verifyDiaryPageData" description="Validates data on the Dream Diary page" finished-at="2025-06-15T20:57:51 IST" duration-ms="2751" status="PASS">
+        <test-method signature="verifyDiaryPageData()[pri:2, instance:testCases.DiaryPageTest@5dcb4f5f]" started-at="2025-06-15T21:53:04 IST" name="verifyDiaryPageData" description="Validates data on the Dream Diary page" finished-at="2025-06-15T21:53:07 IST" duration-ms="2523" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDiaryPageData -->
-        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:testCases.DiaryPageTest@7b94089b]" started-at="2025-06-15T20:57:51 IST" name="tearDownMethod" finished-at="2025-06-15T20:57:51 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:testCases.DiaryPageTest@5dcb4f5f]" started-at="2025-06-15T21:53:04 IST" name="setupMethod" finished-at="2025-06-15T21:53:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:testCases.DiaryPageTest@5dcb4f5f]" started-at="2025-06-15T21:53:07 IST" name="tearDownMethod" finished-at="2025-06-15T21:53:07 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
       </class> <!-- testCases.DiaryPageTest -->
       <class name="testCases.HomePageTest">
-        <test-method is-config="true" signature="setupSuite()[pri:0, instance:testCases.HomePageTest@24111ef1]" started-at="2025-06-15T20:57:38 IST" name="setupSuite" finished-at="2025-06-15T20:57:48 IST" duration-ms="9838" status="PASS">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:testCases.HomePageTest@53fd0d10]" started-at="2025-06-15T21:52:55 IST" name="setupSuite" finished-at="2025-06-15T21:53:04 IST" duration-ms="8970" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuite -->
-        <test-method is-config="true" signature="setupMethod()[pri:0, instance:testCases.HomePageTest@24111ef1]" started-at="2025-06-15T20:57:48 IST" name="setupMethod" finished-at="2025-06-15T20:57:48 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:testCases.HomePageTest@53fd0d10]" started-at="2025-06-15T21:53:04 IST" name="setupMethod" finished-at="2025-06-15T21:53:04 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method signature="verifyHomePageLoadAndButton()[pri:1, instance:testCases.HomePageTest@24111ef1]" started-at="2025-06-15T20:57:48 IST" name="verifyHomePageLoadAndButton" description="Verifies home page loading and button visibility" finished-at="2025-06-15T20:57:48 IST" duration-ms="75" status="PASS">
+        <test-method signature="verifyHomePageLoadAndButton()[pri:1, instance:testCases.HomePageTest@53fd0d10]" started-at="2025-06-15T21:53:04 IST" name="verifyHomePageLoadAndButton" description="Verifies home page loading and button visibility" finished-at="2025-06-15T21:53:04 IST" duration-ms="123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageLoadAndButton -->
-        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:testCases.HomePageTest@24111ef1]" started-at="2025-06-15T20:57:48 IST" name="tearDownMethod" finished-at="2025-06-15T20:57:48 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:testCases.HomePageTest@53fd0d10]" started-at="2025-06-15T21:53:04 IST" name="tearDownMethod" finished-at="2025-06-15T21:53:04 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:testCases.HomePageTest@24111ef1]" started-at="2025-06-15T20:58:08 IST" name="tearDownSuite" finished-at="2025-06-15T20:58:08 IST" duration-ms="444" status="PASS">
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:testCases.HomePageTest@53fd0d10]" started-at="2025-06-15T21:53:24 IST" name="tearDownSuite" finished-at="2025-06-15T21:53:24 IST" duration-ms="399" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownSuite -->
